@@ -30,15 +30,6 @@ body{
     align-content: center;
     align-self: center;
     display: flex;
-    justify-content: center;
-}
-#image img{
-    max-width: 100%;
-    max-height: 100%;
-    align-self: center;
-    
-}
-#repo{
     display: none;
 }
 input{
