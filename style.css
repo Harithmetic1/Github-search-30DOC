@@ -30,7 +30,10 @@ body{
     align-content: center;
     align-self: center;
     display: flex;
-    display: none;
+}
+#image img{
+    margin: auto;
+    height: 50px;
 }
 input{
     width: 100%;
