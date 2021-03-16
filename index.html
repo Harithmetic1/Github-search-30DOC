@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Github Search</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+        <h2><i class="fab fa-github"></i> Github Search</h2>
+    </div>
+        <div class="search">
+
+        <input type="text" id="userInput" placeholder="Github Username"><button id="button" onclick="getData(), showLink()">Search</button>
+        </div>
+    <div class="result">
+        <h3 id="name"></h3>
+        <h3 id="username"></h3>
+        <p id="image"></p>
+        <p id="number"></p>
+        <a href="" id="repo">Profile link</a>
+        <p id="publicRepo"></p>
+    </div>
+</body>
+<script src="https://kit.fontawesome.com/dc7f1f050e.js" crossorigin="anonymous"></script>
+<script src="app.js"></script>
+</html>
